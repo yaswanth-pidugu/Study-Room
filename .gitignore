@@ -1,17 +1,30 @@
-# Python cache
-__pycache__/
+# Django
+*.log
+*.pot
 *.pyc
+__pycache__/
+db.sqlite3
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
 
 # Virtual environment
 venv/
 env/
-.venv/
 
-# SQLite database
-db.sqlite3
-
-# VS Code settings
+# IDE
 .vscode/
+.idea/
 
-# Logs
-*.log
+# OS
+.DS_Store
+Thumbs.db
+
+# Static & Media (generated files)
+staticfiles/
+media/
+git
